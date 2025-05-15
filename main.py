@@ -1,16 +1,28 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import Django_setup
+from data.models import Game, Genre
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+#action = Genre(name="Action")
+#action.save()
+
+#rpg = Genre(name="RPG")
+#rpg.save()
+
+#adventure = Genre(name="Adventure")
+#adventure.save()
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+#witcher = Game(name="The Witcher 3", year=2015, rating=9.80)
+#witcher.save()
+#witcher.genre.add(rpg, action)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#doom = Game(name="DOOM Eternal", year=2020, rating=9.10)
+#doom.save()
+#doom.genre.add(action)
+
+#zelda = Game(name="The Legend of Zelda: Breath of the Wild", year=2017, rating=9.80)
+#zelda.save()
+#zelda.genre.add(adventure, action)
+
+
+
